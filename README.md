@@ -1,2 +1,2 @@
 # My_HTML
-This repository contains my HTML and CSS course assignments and projects.
+This repository showcases my coursework and projects completed using HTML and CSS.
