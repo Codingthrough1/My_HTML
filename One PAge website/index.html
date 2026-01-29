@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        nav {
+            background-color: #0f172a;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        #home {
+            background-color: #e0f2fe;
+        }
+
+        #about {
+            background-color: #fef3c7;
+        }
+
+        #video {
+            background-color: #dcfce7;
+        }
+
+        #contact {
+            background-color: #fae8ff;
+        }
+
+        h1, h2 {
+            color: #0f172a;
+        }
+
+        p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        form {
+            background-color: #ffffff;
+            display: inline-block;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            width: 250px;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #0f172a;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2563eb;
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My One-Page Website</h1>
+        <p>
+            This website is built using basic HTML and styled with simple CSS.
+            It demonstrates navigation, sections, forms, and embedded media
+            on a single page.
+        </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>
+            This section replaces the image gallery and keeps the design clean
+            and attractive using colors and spacing instead of images.
+        </p>
+    </section>
+
+    <section id="video">
+    <h2>Video Section</h2>
+    <p>This is a placeholder for an embedded video.</p>
+
+    <iframe
+        width="560"
+        height="315"
+        src="#"
+        title="Video Placeholder">
+    </iframe>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 One Page Website</p>
+    </footer>
+
+</body>
+</html>
